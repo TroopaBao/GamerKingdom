@@ -1,0 +1,285 @@
+body
+{
+	background-image: url("../img/franquicias.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	color: white;
+}
+
+header {
+	background-image: url("../img/vi.jpg");
+	height: 472px;
+	background-size: 100%;
+	opacity: .98;
+}
+
+#logo {
+	width: 410px;
+	position: relative;
+	top: 120px;
+	left: 370px;
+}
+
+img {
+	max-width: 80%;
+}
+
+fieldset img {
+	width: 400px;
+}
+nav{
+	transition: all .3s;
+}
+
+nav ul {
+	height: 30px;
+	margin: 20px;
+	padding: 10px 25px;
+	background-color: black;
+}
+nav li {
+	display: inline;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #fdfdfd;
+	font-family: initial;
+	margin: 0 0px;
+	font-size: 30px;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fdfdfd;
+	padding: 5px 10px;
+	
+
+	transition-property: all;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in;
+	transition-delay: initial;
+
+}
+
+
+
+#login {
+	float: right;
+	padding: 0 0;
+}
+
+nav li a:hover {
+	color: #fff;
+	text-shadow: 0 0 3px #ddd;
+	background-color: #106110;
+}
+
+.fi {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: 0;
+	border-top: 50px;
+	background-color: black;
+	z-index: 6;
+	opacity: .93;
+
+}
+#bloque{
+	opacity: .9;
+	background-color: black;
+	width: 1200px;
+	height: 660px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	position: absolute;
+	z-index: 1;
+}
+section, footer, aside, table, hr, #info {
+	position: relative;
+	z-index: 2;
+}
+
+section, #info {
+	display: flex;
+	width: 70%;
+	padding: 0 10px 0 30px;
+}
+
+
+aside {
+	display: flex;
+	width: 30%
+}
+
+aside ul {
+	padding: 0;
+	border: 0;
+}
+aside li {
+	color: white;
+	width: 85%;
+	height: 19%;
+	list-style: none;
+
+	border-top: 0.2px solid #aaa;
+	border-left: 0.2px solid #aaa;
+	border-right: 0.2px solid #fff;
+	border-bottom: 0.2px solid #fdfdfd;
+	text-align: justify;
+}
+
+aside li a {
+	text-decoration: none;
+	margin: 0 0px;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	z-index: 2;
+
+	transition-property: all;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in;
+	transition-delay: initial;
+}
+
+aside li:hover {
+	color: #ff0;
+	text-shadow: 1px 1px 3px #ffffab;
+	background-color: #30000f;
+}
+
+
+section ul li a img, #info img{
+	width: 605px;
+	height: 300px;
+}
+
+
+footer {
+	height: 200px;
+	background-color: black;
+	padding: 5px 10px;
+	border: 10px;
+}
+
+footer p, pre {
+	color: #fff;
+	size: 60px;
+}
+pre {
+	text-align: right;
+}
+
+
+footer li a img {
+	width: 55px;
+}
+
+footer li a img {
+	margin: 0 5px;
+	padding: 2px;
+}
+
+footer li {
+	display: inline;
+}
+
+#slider
+{
+	width: 90%
+	margin: 10px 0;
+	overflow: hidden;
+}
+#slider ul
+{
+	display: flex;
+	padding: 0px;
+	width: 700%;
+	animation:king 40s infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+
+}
+#slider li
+{
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+#slider img
+{
+	width: 200px;
+}
+
+@keyframes king
+{
+	0%
+	{
+		margin-left: 0 0;
+	}
+	5%
+	{
+		margin-left: 0 0;
+	}
+	10%
+	{
+		margin-left: -100%;
+	}
+	15%
+	{
+		margin-left: -100%;
+	}
+	20%
+	{
+		margin-left: -200%;
+	}
+	25%
+	{
+		margin-left: -200%;
+	}
+	30%
+	{
+		margin-left: -300%;
+	}
+	35%
+	{
+		margin-left: -300%;
+	}
+	40%
+	{
+		margin-left: -400%;
+	}
+	45%
+	{
+		margin-left: -400%;
+	}
+	50%
+	{
+		margin-left: -500%;
+	}
+	65%
+	{
+		margin-left: -500%;
+	}
+	75%
+	{
+		margin-left: -600%;
+	}
+	85%
+	{
+		margin-left: -600%;
+	}
+	95%
+	{
+		margin-left: -700%;
+	}
+	100%
+	{
+		margin-left: -700%;
+	}
+}
